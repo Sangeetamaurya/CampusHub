@@ -1,0 +1,156 @@
+CampusHub v1 — How It Works
+Nov 5, 2026 · @Sam
+Overview
+Version 1 of CampusHub shows one complete flow: a committee posts an event, the coordinator and dean approve it, students apply, and the committee accepts or rejects them by looking at their profiles. The first goal is to demo this to the dean.
+Included in version 1
+Login with roles: student, faculty and dean
+Profiles and search
+Event posting with approval by the tagged coordinator and the dean
+Applying to events and tracking applications
+Basic points and tiers
+Left for version 2: certificate wallet, ranking boards, stream sections, notifications and reminders.
+Complete system flow
+
+complete version 1 system flow · three lanes
+Everyone enters through login or registration and lands on the home screen. Then each role follows its own lane: the committee posts an event, the coordinator and dean approve it, students apply, and the committee's decision updates the student's points, tier and profile. The sections below explain each part in detail.
+Roles
+Every account is a student, a faculty member or the dean. The coordinator is not a separate account type: it is a faculty member tagged on one event.
+Role
+What they can do
+Student
+Edit own profile, search and view profiles, apply to events open to their tier, track their applications
+Committee member
+Create event posts, tag the coordinator, review applicants' profiles, accept or reject applications, see the phone number of students who applied to their event
+Event coordinator (faculty tagged on an event)
+Read the event post and approve or reject it
+Faculty
+Edit own profile, be tagged as coordinator. No phone number field
+Dean (super admin)
+Approve or reject every event, view everything. No phone number field
+Opening the app: login and registration
+
+opening the app: login and registration · 3 decisions
+A user who is already signed in goes straight to the home screen. Otherwise they see the login page. Returning users log in with their email and password, and new users register once and then land on the home screen.
+Registration details
+These fields are suggested; the team should confirm them. Dean accounts are created by the college, not through registration.
+Field
+Student
+Faculty
+Full name
+Required
+Required
+College email
+Required
+Required
+Phone number
+Required. Hidden from search; only a committee sees it, for students who applied to its event
+Not collected
+Enrollment number
+Required
+Not collected
+Stream
+MCA, MSS, PGDM or other
+Not collected
+Year of study
+1st or 2nd year
+Not collected
+Department
+Not collected
+Required
+Designation
+Not collected
+Required
+Password
+Required, with confirmation
+Required, with confirmation
+After the password, new users can add a profile picture and an About section, or skip this and do it later. Certificates, projects, experience and event contributions are added over time from the profile page.
+Where each role lands after login
+Role
+Home screen shows
+Student
+The feed, with an apply button on each event
+Committee member
+The feed, plus a Create event button
+Faculty
+The feed, plus Pending approvals when tagged as coordinator
+Dean
+Pending approvals first, then the feed
+End to end flow
+
+event approval and application flow · 4 decisions
+The top row is the approval flow. A rejection sends the post back to the committee with a reason, and they fix it and resubmit. The bottom row starts once the event is live: students apply, and the committee accepts or rejects after looking at each profile.
+Statuses
+Item
+Status
+Meaning
+Event post
+Pending
+Submitted and waiting for approval. Hidden from the feed
+Event post
+Live
+Approved by the coordinator and the dean. Visible in the feed, apply form open
+Event post
+Rejected
+Sent back to the committee with a reason. They fix it and resubmit
+Application
+Applied
+Student has applied and the committee has not decided yet
+Application
+Accepted
+Committee accepted the student. Points are added to their profile
+Application
+Rejected
+Committee rejected the student. The status shows on My applications
+Screens
+Screen
+Who sees it
+What it shows
+Login
+Everyone
+Sign in with college details
+Feed
+Everyone
+Live events with an apply button
+Create event
+Committee members
+Event form with a tag field for the coordinator
+Pending approvals
+Coordinators and the dean
+Events waiting for their decision, with Approve and Reject
+Apply form
+Students
+Application for one event
+My applications
+Students
+Every event applied to, with its status
+Applicants
+Committee members
+Applicants for their event, with profile link, phone number and Accept or Reject
+Profile
+Everyone
+Picture, about, certificates, projects, experience, event contributions, and tier and points for students
+Search
+Everyone
+Find any student, faculty member or the dean and open their profile
+Privacy rules, points and tiers
+Contact privacy
+Phone numbers never show in search or on student profiles.
+A committee sees a phone number only for students who applied to its own event.
+Faculty and dean profiles have no phone number field. Students can reach them by email only.
+Points and tiers
+The committee sets the points for an event when it creates the post.
+When a student is accepted, those points are added to their profile and their tier updates.
+Tier rules are still open: the brief gives two different mappings of year of study to tier, and the team needs to pick one before this part is built.
+Build order and open questions
+Suggested build order
+Login with student, faculty and dean accounts
+Profiles and search
+Create event, tag the coordinator, and the Pending approvals screen
+Feed and the apply form
+My applications and the Applicants screen with Accept or Reject
+Points and tiers
+Demo data: a dean, a few faculty, about ten students with filled profiles, and events at different approval stages
+Suggested tech (not final): Next.js with TypeScript, a Postgres database such as Supabase with Prisma, NextAuth for login, and Vercel for a live demo link.
+Open questions
+Does the coordinator approve first and then the dean, or do both approve at the same time?
+How do year of study and points map to tiers?

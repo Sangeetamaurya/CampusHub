@@ -1,0 +1,55 @@
+
+
+===== PAGE 1 =====
+CampusHub v1 — How It Works  Nov 5, 2026   ·   @Sam  Overview  Version 1 of CampusHub shows one complete flow: a committee posts an event, the coordinator and dean approve it, students apply, and the committee accepts or rejects them by looking at their profiles. The first goal is to demo this to the dean.  Included in version 1  1.   Login with roles: student, faculty and dean  2.   Profiles and search  3.   Event posting with approval by the tagged coordinator and the dean  4.   Applying to events and tracking applications  5.   Basic points and tiers, and notifications  Left for version 2:   certificate wallet, ranking boards, stream sections, reminders.  CampusHub v1 — How It Works Page 1 of 18
+
+===== PAGE 2 =====
+Complete system flow  Everyone enters through login or registration and lands on the home screen. Then each role follows its own lane: the committee posts an event, the coordinator and dean approve it, students apply, and the committee's decision updates the student's points, tier and  complete version 1 system flow · three lanes  CampusHub v1 — How It Works Page 2 of 18
+
+===== PAGE 3 =====
+profile. The sections below explain each part in detail.  Flow by role  Each role has its own flow, from opening the app to the end of its work. A committee member is a normal student whose profile lists the committee, so the committee flow also includes everything in the student flow.  CampusHub v1 — How It Works Page 3 of 18
+
+===== PAGE 4 =====
+Student  CampusHub v1 — How It Works Page 4 of 18
+
+===== PAGE 5 =====
+CampusHub v1 — How It Works Page 5 of 18
+
+===== PAGE 6 =====
+The student browses the feed, opens an event and applies only if the position is open for their tier. The committee reviews their profile and accepts or rejects. Either way the student gets a notification and can track the application. From the home screen they can also open My applications, Notifications, and Profile and search.  student flow · from opening the app to the result  CampusHub v1 — How It Works Page 6 of 18
+
+===== PAGE 7 =====
+Committee student  CampusHub v1 — How It Works Page 7 of 18
+
+===== PAGE 8 =====
+CampusHub v1 — How It Works Page 8 of 18
+
+===== PAGE 9 =====
+A committee student is a normal student whose profile lists their committee, so everything in the student flow also applies to them. The extra tools let them create an event, tag the coordinator and send it for approval. If an approver says no, the post comes back with a reason to fix and resubmit. Once it is live, they get the list of applicants, review each profile, and accept or reject. The student is notified either way.  committee student flow · post, approve, review, accept  CampusHub v1 — How It Works Page 9 of 18
+
+===== PAGE 10 =====
+Faculty  A faculty member gets a notification when a committee tags them as coordinator. The event waits under Pending approvals, and they read it and approve or reject. A rejection sends the reason back to the committee. An approval moves the event on to the dean. Faculty do not apply to events and have no phone number on their profile.  faculty flow · review tagged events  CampusHub v1 — How It Works Page 10 of 18
+
+===== PAGE 11 =====
+Dean  The dean is the super admin. Every event comes to the dean under Pending approvals, and on approval it goes live in the feed and the committee is notified. A rejection sends the reason back to the committee. The dean can also open any event, profile or application in the system.  dean flow · final approval and full access  CampusHub v1 — How It Works Page 11 of 18
+
+===== PAGE 12 =====
+Roles  Every account is a student, a faculty member or the dean. The coordinator is not a separate account type: it is a faculty member tagged on one event. A committee member is not a separate account type either: it is a normal student whose profile lists their committee.  Role   What they can do  Student   Edit own profile, search and view profiles, apply to events open to their tier, track their applications  Committee student (profile lists the committee)  Create event posts, tag the coordinator, review applicants' profiles, accept or reject applications, see the phone number of students who applied to their event  Event coordinator (faculty tagged on an event)  Read the event post and approve or reject it  Faculty   Edit own profile, be tagged as coordinator. No phone number field  Dean (super admin)   Approve or reject every event, view everything. No phone number field  CampusHub v1 — How It Works Page 12 of 18
+
+===== PAGE 13 =====
+Opening the app: login and registration  A user who is already signed in goes straight to the home screen. Otherwise they see the login page. Returning users log in with their email and password, and new users register once and then land on the home screen.  opening the app: login and registration · 3 decisions  CampusHub v1 — How It Works Page 13 of 18
+
+===== PAGE 14 =====
+Registration details  These fields are suggested; the team should confirm them. Dean accounts are created by the college, not through registration.  After the password, new users can add a profile picture and an About section, or skip this and do it later. Certificates, projects, experience and event contributions are added over time from the profile page.  Field   Student   Faculty  Full name   Required   Required  College email   Required   Required  Phone number   Required. Hidden from search; only a committee sees it, for students who applied to its event  Not collected  Enrollment number  Required   Not collected  Stream   MCA, MSS, PGDM or other   Not collected  Year of study   1st or 2nd year   Not collected  Department   Not collected   Required  Designation   Not collected   Required  Password   Required, with confirmation   Required, with confirmation  CampusHub v1 — How It Works Page 14 of 18
+
+===== PAGE 15 =====
+Where each role lands after login  End to end flow  The top row is the approval flow. A rejection sends the post back to the committee with a reason, and they fix it and resubmit. The bottom row starts once the event is live: students apply, and the committee accepts or rejects after looking at each profile.  Role   Home screen shows  Student   The feed, with an apply button on each event  Committee member   The feed, plus a Create event button  Faculty   The feed, plus Pending approvals when tagged as coordinator  Dean   Pending approvals first, then the feed  event approval and application flow · 4 decisions  CampusHub v1 — How It Works Page 15 of 18
+
+===== PAGE 16 =====
+Statuses  Screens  Item   Status   Meaning  Event post   Pending   Submitted and waiting for approval. Hidden from the feed  Event post   Live   Approved by the coordinator and the dean. Visible in the feed, apply form open  Event post   Rejected   Sent back to the committee with a reason. They fix it and resubmit  Application   Applied   Student has applied and the committee has not decided yet  Application   Accepted   Committee accepted the student. Points are added to their profile  Application   Rejected   Committee rejected the student. The status shows on My applications  Screen   Who sees it   What it shows  Login   Everyone   Sign in with college details  Feed   Everyone   Live events with an apply button  Create event   Committee students   Event form with a tag field for the coordinator  Pending approvals  Coordinators and the dean  Events waiting for their decision, with Approve and Reject  Apply form   Students   Application for one event  My applications   Students   Every event applied to, with its status  Applicants   Committee students   Applicants for their event, with profile link, phone number and Accept or Reject  CampusHub v1 — How It Works Page 16 of 18
+
+===== PAGE 17 =====
+Privacy rules, points and tiers  Contact privacy  Phone numbers never show in search or on student profiles.  A committee sees a phone number only for students who applied to its own event.  Faculty and dean profiles have no phone number field. Students can reach them by email only.  Points and tiers  The committee sets the points for an event when it creates the post.  When a student is accepted, those points are added to their profile and their tier updates.  Tier rules are still open: the brief gives two different mappings of year of study to tier, and the team needs to pick one before this part is built.  Build order and open questions  Suggested build order  1.   Login with student, faculty and dean accounts  2.   Profiles and search  3.   Create event, tag the coordinator, and the Pending approvals screen  4.   Feed and the apply form  5.   My applications and the Applicants screen with Accept or Reject  6.   Points and tiers  7.   Demo data: a dean, a few faculty, about ten students with filled profiles, and events at different approval stages  Screen   Who sees it   What it shows  Profile   Everyone   Picture, about, certificates, projects, experience, event contributions, and tier and points for students  Search   Everyone   Find any student, faculty member or the dean and open their profile  CampusHub v1 — How It Works Page 17 of 18
+
+===== PAGE 18 =====
+Suggested tech (not final):   Next.js with TypeScript, a Postgres database such as Supabase with Prisma, NextAuth for login, and Vercel for a live demo link.  Open questions  Does the coordinator approve first and then the dean, or do both approve at the same time?  How do year of study and points map to tiers?  CampusHub v1 — How It Works Page 18 of 18
